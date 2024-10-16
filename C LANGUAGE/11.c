@@ -1,7 +1,7 @@
 // 11. Remove duplicate elements from the array arr = [1, 2, 2, 3, 4, 4, 5] and print the updated array.
 
 
-// #include <stdio.h>
+ #include <stdio.h>
 int main()
 {
    int arr1[] ={1,2,2,3,3,4};
@@ -11,8 +11,8 @@ int main()
     // arr2[0]=arr1[0];
     int len2 = 0;
     
-     int i =1;
-    int j =0;
+     int i ;
+    int j ;
   for(i = 0;i<len1;i++){
       int count = 0;
       for(j=0;j<len2;j++){
@@ -23,7 +23,9 @@ int main()
       }
       if(count == len2){
           arr2[len2]=arr1[i];
+         
           len2 ++;
+
       
        }
   }
