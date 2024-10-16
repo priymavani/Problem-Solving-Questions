@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 int main(){
-    int arr[] ={5,7,7,8,8,10};
+    int arr[] ={5,5,7,8,8,8,8,10};
     int length = sizeof(arr)/sizeof(arr[0]);
     int target = 8;
 
